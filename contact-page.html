@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Bootstrap Contact Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/contact.css" />
+    </head>
+    <body>
+        <!--Google map-->
+        <div class="map rounded">
+            <iframe
+                class="rounded"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13722.600304863428!2d76.69900595!3d30.7001201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679292134941!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+        <section class="contact_wrapper py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="form card rounded">
+                            <div class="card-title">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="form-body p-3">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <div class="input-group">
+                                        <input value="" type="text" class="form-control" id="your-name" placeholder="Name" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <div class="input-group mb-2 mb-sm-0">
+                                        <input type="email" value="" class="form-control" id="your-mail" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Subject</label>
+                                    <div class="input-group mb-2 mb-sm-0">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <div class="input-group mb-2 mb-sm-0">
+                                        <textarea type="text" rows="5" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <input type="submit" name="submit" value="submit" class="btn btn-block rounded py-2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="adddress mt-4">
+                            <div class="row_address text-left">
+                                <div class="col mb-4">
+                                    <a class="rounded d-inline-block"><i class="fa fa-map-marker"></i></a>
+                                    <p>Type Your Address Here</p>
+                                </div>
+                                <div class="col mb-4">
+                                    <a class="rounded d-inline-block"><i class="fa fa-phone"></i></a>
+                                    <p>+91- 1122334455</p>
+                                </div>
+                                <div class="col mb-4">
+                                    <a class="rounded d-inline-block"><i class="fa fa-envelope"></i></a>
+                                    <p>demo@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

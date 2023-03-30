@@ -1,0 +1,59 @@
+body {
+  background-color: #dedede;
+}
+
+.map {
+  width: 100%;
+}
+.map iframe {
+  height: 360px;
+  width: 100%;
+}
+
+.contact_wrapper {
+  background-color: #dedede;
+}
+.contact_wrapper .form {
+  border: 1px solid #243342;
+}
+.contact_wrapper .form .card-title {
+  background-color: #243342;
+  text-align: center;
+}
+.contact_wrapper .form .card-title h3 {
+  margin: 0px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.contact_wrapper .form .form-body .btn {
+  background-color: #243342;
+  color: #ffffff;
+}
+.contact_wrapper .adddress .row_address .col {
+  display: flex;
+  align-items: center;
+}
+.contact_wrapper .adddress .row_address .col a {
+  background-color: #243342;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding: 2px 0 0;
+  font-size: 20px;
+}
+.contact_wrapper .adddress .row_address .col a:hover {
+  color: #ffffff;
+}
+.contact_wrapper .adddress .row_address .col a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.contact_wrapper .adddress .row_address .col p {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+
+/*# sourceMappingURL=contact.css.map */

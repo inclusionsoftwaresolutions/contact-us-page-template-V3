@@ -1,0 +1,72 @@
+$color_1: #000000;
+$color_2: #ffffff;
+$color_3: #243342;
+$border-color: #243342;
+$background-color_1: #243342;
+$background-color_3: #dedede;
+
+
+body {
+	background-color: $background-color_3;
+}
+
+.map {
+	width: 100%;
+	iframe {
+    height: 360px;
+	width: 100%;
+	}
+}
+.contact_wrapper {
+	background-color: $background-color_3;
+	.form {
+	    border: 1px solid $border-color;
+	    .card-title {
+	        background-color: $background-color_1;
+    		text-align: center;
+	    	h3 {
+	    		margin: 0px;
+			    color: $color_2;
+			    padding: 10px 0;
+	    	}
+	    }
+	    .form-body {
+	    	.btn {
+	    		background-color: $background-color_1;
+	    		color: $color_2;
+	    	}
+	    }
+	}
+
+	.adddress {
+		.row_address {
+			.col {
+				display: flex;
+	    		align-items: center;
+				a {
+					background-color: $background-color_1;
+					color: $color_2;
+				    width: 50px;
+				    height: 50px;
+				    padding: 2px 0 0;
+				    font-size: 20px;
+				    &:hover {
+				    	color: $color_2;
+				    }
+				    i {
+				    	display: flex;
+					    align-items: center;
+					    justify-content: center;
+					    height: 100%;
+					    width: 100%;
+				    }
+				}
+				p {
+					font-size: 18px;
+    				margin: 0 0 0 10px;
+
+				  }
+			}
+		}
+	}
+}
